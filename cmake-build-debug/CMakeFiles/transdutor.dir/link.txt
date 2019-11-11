@@ -1,0 +1,1 @@
+/usr/bin/g++  -g   CMakeFiles/transdutor.dir/main.cpp.o CMakeFiles/transdutor.dir/Transdutor.cpp.o  -o transdutor 
