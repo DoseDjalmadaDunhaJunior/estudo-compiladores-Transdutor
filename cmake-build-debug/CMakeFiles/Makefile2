@@ -44,10 +44,10 @@ RM = /opt/clion-2019.2.4/bin/cmake/linux/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/djalma/Desktop/sexto_semestre/Compiladores/estudo/transdutor
+CMAKE_SOURCE_DIR = /media/djalma/09BBDA931A86D9AA/paradas_de_algoritmo/sexto_semestre_pt2/Compiladores/estudo/transdutor
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/djalma/Desktop/sexto_semestre/Compiladores/estudo/transdutor/cmake-build-debug
+CMAKE_BINARY_DIR = /media/djalma/09BBDA931A86D9AA/paradas_de_algoritmo/sexto_semestre_pt2/Compiladores/estudo/transdutor/cmake-build-debug
 
 #=============================================================================
 # Directory level rules for the build root directory
@@ -74,14 +74,14 @@ preinstall:
 CMakeFiles/transdutor.dir/all:
 	$(MAKE) -f CMakeFiles/transdutor.dir/build.make CMakeFiles/transdutor.dir/depend
 	$(MAKE) -f CMakeFiles/transdutor.dir/build.make CMakeFiles/transdutor.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/djalma/Desktop/sexto_semestre/Compiladores/estudo/transdutor/cmake-build-debug/CMakeFiles --progress-num=1,2,3 "Built target transdutor"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/media/djalma/09BBDA931A86D9AA/paradas_de_algoritmo/sexto_semestre_pt2/Compiladores/estudo/transdutor/cmake-build-debug/CMakeFiles --progress-num=1,2,3 "Built target transdutor"
 .PHONY : CMakeFiles/transdutor.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/transdutor.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/djalma/Desktop/sexto_semestre/Compiladores/estudo/transdutor/cmake-build-debug/CMakeFiles 3
+	$(CMAKE_COMMAND) -E cmake_progress_start /media/djalma/09BBDA931A86D9AA/paradas_de_algoritmo/sexto_semestre_pt2/Compiladores/estudo/transdutor/cmake-build-debug/CMakeFiles 3
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/transdutor.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/djalma/Desktop/sexto_semestre/Compiladores/estudo/transdutor/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /media/djalma/09BBDA931A86D9AA/paradas_de_algoritmo/sexto_semestre_pt2/Compiladores/estudo/transdutor/cmake-build-debug/CMakeFiles 0
 .PHONY : CMakeFiles/transdutor.dir/rule
 
 # Convenience name for target.

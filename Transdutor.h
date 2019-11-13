@@ -18,16 +18,26 @@ public:
     }
 
     void e0(){
-        if(txt[po] == 0){
+        if((txt[po] >= '0' && txt[po] <= '9') || (txt[po] >= 'a' && txt[po] <= 'z') ||
+           (txt[po] >= 'A' && txt[po] <= 'Z')){
+            po++;
+            e1();
+        }
+        else if(txt[po] == ' '){
+            po++;
+            e1();
+        }
+        else if(txt[po] == 0){
             imprime();
         }
-        else if(8){
-
+        else{
+            rejeita();
         }
     }
 private:
     int po = 0;
-    char* txt;
+    char txt[200];
+
     struct variavel{
         int num;
         string nome;
@@ -35,12 +45,45 @@ private:
     typedef struct variavel variavel;
     variavel vetor[200];
 
-    void imprime(){
+    void pegaParcela(char* parcela) {
+        if (txt[po] == 0) {
+            puts("acabou");
+        } else {
+            if (txt[po] == ' ') {
+                po++;
+            }
+            int i = 0;
+            for (i = 0; (txt[i + po] != ' ') || (txt[i + po] != 0); i++) {
+                parcela[i] = txt[po + i];
+            }
+            parcela[i] = 0;
+        }
+    }
 
+    void e1(){
+        if((txt[po] >= '0' && txt[po] <= '9') || (txt[po] >= 'a' && txt[po] <= 'z') ||
+                (txt[po] >= 'A' && txt[po] <= 'Z')){
+            po++;
+            e0();
+        }
+        else if(txt[po] == ' '){
+            po++;
+            e0();
+        }
+        else if(txt[po] == 0){
+            e0();
+        }
+        else{
+            rejeita();
+        }
+    }
+
+    void imprime(){
+        cout<<"aceita"<<endl;
     }
 
     void rejeita(){
-
+        cerr<<"rejeita"<<endl;
     }
 };
 

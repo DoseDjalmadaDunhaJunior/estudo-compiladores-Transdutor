@@ -8,28 +8,28 @@
 		<Option virtualFolders="CMake Files\;"/>
 		<Build>
 			<Target title="all">
-				<Option working_dir="/home/djalma/Desktop/sexto_semestre/Compiladores/estudo/transdutor/cmake-build-debug"/>
+				<Option working_dir="/media/djalma/09BBDA931A86D9AA/paradas_de_algoritmo/sexto_semestre_pt2/Compiladores/estudo/transdutor/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/home/djalma/Desktop/sexto_semestre/Compiladores/estudo/transdutor/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/djalma/Desktop/sexto_semestre/Compiladores/estudo/transdutor/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/home/djalma/Desktop/sexto_semestre/Compiladores/estudo/transdutor/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/home/djalma/Desktop/sexto_semestre/Compiladores/estudo/transdutor/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/media/djalma/09BBDA931A86D9AA/paradas_de_algoritmo/sexto_semestre_pt2/Compiladores/estudo/transdutor/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/media/djalma/09BBDA931A86D9AA/paradas_de_algoritmo/sexto_semestre_pt2/Compiladores/estudo/transdutor/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/media/djalma/09BBDA931A86D9AA/paradas_de_algoritmo/sexto_semestre_pt2/Compiladores/estudo/transdutor/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/media/djalma/09BBDA931A86D9AA/paradas_de_algoritmo/sexto_semestre_pt2/Compiladores/estudo/transdutor/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="rebuild_cache">
-				<Option working_dir="/home/djalma/Desktop/sexto_semestre/Compiladores/estudo/transdutor/cmake-build-debug"/>
+				<Option working_dir="/media/djalma/09BBDA931A86D9AA/paradas_de_algoritmo/sexto_semestre_pt2/Compiladores/estudo/transdutor/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/home/djalma/Desktop/sexto_semestre/Compiladores/estudo/transdutor/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/djalma/Desktop/sexto_semestre/Compiladores/estudo/transdutor/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/home/djalma/Desktop/sexto_semestre/Compiladores/estudo/transdutor/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/home/djalma/Desktop/sexto_semestre/Compiladores/estudo/transdutor/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/media/djalma/09BBDA931A86D9AA/paradas_de_algoritmo/sexto_semestre_pt2/Compiladores/estudo/transdutor/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/media/djalma/09BBDA931A86D9AA/paradas_de_algoritmo/sexto_semestre_pt2/Compiladores/estudo/transdutor/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/media/djalma/09BBDA931A86D9AA/paradas_de_algoritmo/sexto_semestre_pt2/Compiladores/estudo/transdutor/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/media/djalma/09BBDA931A86D9AA/paradas_de_algoritmo/sexto_semestre_pt2/Compiladores/estudo/transdutor/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="transdutor">
-				<Option output="/home/djalma/Desktop/sexto_semestre/Compiladores/estudo/transdutor/cmake-build-debug/transdutor" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/djalma/Desktop/sexto_semestre/Compiladores/estudo/transdutor/cmake-build-debug"/>
+				<Option output="/media/djalma/09BBDA931A86D9AA/paradas_de_algoritmo/sexto_semestre_pt2/Compiladores/estudo/transdutor/cmake-build-debug/transdutor" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/media/djalma/09BBDA931A86D9AA/paradas_de_algoritmo/sexto_semestre_pt2/Compiladores/estudo/transdutor/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -44,15 +44,15 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/home/djalma/Desktop/sexto_semestre/Compiladores/estudo/transdutor/cmake-build-debug/Makefile&quot;  VERBOSE=1 transdutor"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/djalma/Desktop/sexto_semestre/Compiladores/estudo/transdutor/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/home/djalma/Desktop/sexto_semestre/Compiladores/estudo/transdutor/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/home/djalma/Desktop/sexto_semestre/Compiladores/estudo/transdutor/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/media/djalma/09BBDA931A86D9AA/paradas_de_algoritmo/sexto_semestre_pt2/Compiladores/estudo/transdutor/cmake-build-debug/Makefile&quot;  VERBOSE=1 transdutor"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/media/djalma/09BBDA931A86D9AA/paradas_de_algoritmo/sexto_semestre_pt2/Compiladores/estudo/transdutor/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/media/djalma/09BBDA931A86D9AA/paradas_de_algoritmo/sexto_semestre_pt2/Compiladores/estudo/transdutor/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/media/djalma/09BBDA931A86D9AA/paradas_de_algoritmo/sexto_semestre_pt2/Compiladores/estudo/transdutor/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="transdutor/fast">
-				<Option output="/home/djalma/Desktop/sexto_semestre/Compiladores/estudo/transdutor/cmake-build-debug/transdutor" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/djalma/Desktop/sexto_semestre/Compiladores/estudo/transdutor/cmake-build-debug"/>
+				<Option output="/media/djalma/09BBDA931A86D9AA/paradas_de_algoritmo/sexto_semestre_pt2/Compiladores/estudo/transdutor/cmake-build-debug/transdutor" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/media/djalma/09BBDA931A86D9AA/paradas_de_algoritmo/sexto_semestre_pt2/Compiladores/estudo/transdutor/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -67,33 +67,33 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/home/djalma/Desktop/sexto_semestre/Compiladores/estudo/transdutor/cmake-build-debug/Makefile&quot;  VERBOSE=1 transdutor/fast"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/djalma/Desktop/sexto_semestre/Compiladores/estudo/transdutor/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/home/djalma/Desktop/sexto_semestre/Compiladores/estudo/transdutor/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/home/djalma/Desktop/sexto_semestre/Compiladores/estudo/transdutor/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/media/djalma/09BBDA931A86D9AA/paradas_de_algoritmo/sexto_semestre_pt2/Compiladores/estudo/transdutor/cmake-build-debug/Makefile&quot;  VERBOSE=1 transdutor/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/media/djalma/09BBDA931A86D9AA/paradas_de_algoritmo/sexto_semestre_pt2/Compiladores/estudo/transdutor/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/media/djalma/09BBDA931A86D9AA/paradas_de_algoritmo/sexto_semestre_pt2/Compiladores/estudo/transdutor/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/media/djalma/09BBDA931A86D9AA/paradas_de_algoritmo/sexto_semestre_pt2/Compiladores/estudo/transdutor/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="edit_cache">
-				<Option working_dir="/home/djalma/Desktop/sexto_semestre/Compiladores/estudo/transdutor/cmake-build-debug"/>
+				<Option working_dir="/media/djalma/09BBDA931A86D9AA/paradas_de_algoritmo/sexto_semestre_pt2/Compiladores/estudo/transdutor/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/home/djalma/Desktop/sexto_semestre/Compiladores/estudo/transdutor/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/djalma/Desktop/sexto_semestre/Compiladores/estudo/transdutor/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/home/djalma/Desktop/sexto_semestre/Compiladores/estudo/transdutor/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/home/djalma/Desktop/sexto_semestre/Compiladores/estudo/transdutor/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/media/djalma/09BBDA931A86D9AA/paradas_de_algoritmo/sexto_semestre_pt2/Compiladores/estudo/transdutor/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/media/djalma/09BBDA931A86D9AA/paradas_de_algoritmo/sexto_semestre_pt2/Compiladores/estudo/transdutor/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/media/djalma/09BBDA931A86D9AA/paradas_de_algoritmo/sexto_semestre_pt2/Compiladores/estudo/transdutor/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/media/djalma/09BBDA931A86D9AA/paradas_de_algoritmo/sexto_semestre_pt2/Compiladores/estudo/transdutor/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/home/djalma/Desktop/sexto_semestre/Compiladores/estudo/transdutor/Transdutor.cpp">
+		<Unit filename="/media/djalma/09BBDA931A86D9AA/paradas_de_algoritmo/sexto_semestre_pt2/Compiladores/estudo/transdutor/Transdutor.cpp">
 			<Option target="transdutor"/>
 		</Unit>
-		<Unit filename="/home/djalma/Desktop/sexto_semestre/Compiladores/estudo/transdutor/Transdutor.h">
+		<Unit filename="/media/djalma/09BBDA931A86D9AA/paradas_de_algoritmo/sexto_semestre_pt2/Compiladores/estudo/transdutor/Transdutor.h">
 			<Option target="transdutor"/>
 		</Unit>
-		<Unit filename="/home/djalma/Desktop/sexto_semestre/Compiladores/estudo/transdutor/main.cpp">
+		<Unit filename="/media/djalma/09BBDA931A86D9AA/paradas_de_algoritmo/sexto_semestre_pt2/Compiladores/estudo/transdutor/main.cpp">
 			<Option target="transdutor"/>
 		</Unit>
-		<Unit filename="/home/djalma/Desktop/sexto_semestre/Compiladores/estudo/transdutor/CMakeLists.txt">
+		<Unit filename="/media/djalma/09BBDA931A86D9AA/paradas_de_algoritmo/sexto_semestre_pt2/Compiladores/estudo/transdutor/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
 	</Project>

@@ -43,10 +43,10 @@ RM = /opt/clion-2019.2.4/bin/cmake/linux/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/djalma/Desktop/sexto_semestre/Compiladores/estudo/transdutor
+CMAKE_SOURCE_DIR = /media/djalma/09BBDA931A86D9AA/paradas_de_algoritmo/sexto_semestre_pt2/Compiladores/estudo/transdutor
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/djalma/Desktop/sexto_semestre/Compiladores/estudo/transdutor/cmake-build-debug
+CMAKE_BINARY_DIR = /media/djalma/09BBDA931A86D9AA/paradas_de_algoritmo/sexto_semestre_pt2/Compiladores/estudo/transdutor/cmake-build-debug
 
 # Include any dependencies generated for this target.
 include CMakeFiles/transdutor.dir/depend.make
@@ -59,29 +59,29 @@ include CMakeFiles/transdutor.dir/flags.make
 
 CMakeFiles/transdutor.dir/main.cpp.o: CMakeFiles/transdutor.dir/flags.make
 CMakeFiles/transdutor.dir/main.cpp.o: ../main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/djalma/Desktop/sexto_semestre/Compiladores/estudo/transdutor/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/transdutor.dir/main.cpp.o"
-	/usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/transdutor.dir/main.cpp.o -c /home/djalma/Desktop/sexto_semestre/Compiladores/estudo/transdutor/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/media/djalma/09BBDA931A86D9AA/paradas_de_algoritmo/sexto_semestre_pt2/Compiladores/estudo/transdutor/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/transdutor.dir/main.cpp.o"
+	/usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/transdutor.dir/main.cpp.o -c /media/djalma/09BBDA931A86D9AA/paradas_de_algoritmo/sexto_semestre_pt2/Compiladores/estudo/transdutor/main.cpp
 
 CMakeFiles/transdutor.dir/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/transdutor.dir/main.cpp.i"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/djalma/Desktop/sexto_semestre/Compiladores/estudo/transdutor/main.cpp > CMakeFiles/transdutor.dir/main.cpp.i
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /media/djalma/09BBDA931A86D9AA/paradas_de_algoritmo/sexto_semestre_pt2/Compiladores/estudo/transdutor/main.cpp > CMakeFiles/transdutor.dir/main.cpp.i
 
 CMakeFiles/transdutor.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/transdutor.dir/main.cpp.s"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/djalma/Desktop/sexto_semestre/Compiladores/estudo/transdutor/main.cpp -o CMakeFiles/transdutor.dir/main.cpp.s
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /media/djalma/09BBDA931A86D9AA/paradas_de_algoritmo/sexto_semestre_pt2/Compiladores/estudo/transdutor/main.cpp -o CMakeFiles/transdutor.dir/main.cpp.s
 
 CMakeFiles/transdutor.dir/Transdutor.cpp.o: CMakeFiles/transdutor.dir/flags.make
 CMakeFiles/transdutor.dir/Transdutor.cpp.o: ../Transdutor.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/djalma/Desktop/sexto_semestre/Compiladores/estudo/transdutor/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/transdutor.dir/Transdutor.cpp.o"
-	/usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/transdutor.dir/Transdutor.cpp.o -c /home/djalma/Desktop/sexto_semestre/Compiladores/estudo/transdutor/Transdutor.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/media/djalma/09BBDA931A86D9AA/paradas_de_algoritmo/sexto_semestre_pt2/Compiladores/estudo/transdutor/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/transdutor.dir/Transdutor.cpp.o"
+	/usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/transdutor.dir/Transdutor.cpp.o -c /media/djalma/09BBDA931A86D9AA/paradas_de_algoritmo/sexto_semestre_pt2/Compiladores/estudo/transdutor/Transdutor.cpp
 
 CMakeFiles/transdutor.dir/Transdutor.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/transdutor.dir/Transdutor.cpp.i"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/djalma/Desktop/sexto_semestre/Compiladores/estudo/transdutor/Transdutor.cpp > CMakeFiles/transdutor.dir/Transdutor.cpp.i
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /media/djalma/09BBDA931A86D9AA/paradas_de_algoritmo/sexto_semestre_pt2/Compiladores/estudo/transdutor/Transdutor.cpp > CMakeFiles/transdutor.dir/Transdutor.cpp.i
 
 CMakeFiles/transdutor.dir/Transdutor.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/transdutor.dir/Transdutor.cpp.s"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/djalma/Desktop/sexto_semestre/Compiladores/estudo/transdutor/Transdutor.cpp -o CMakeFiles/transdutor.dir/Transdutor.cpp.s
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /media/djalma/09BBDA931A86D9AA/paradas_de_algoritmo/sexto_semestre_pt2/Compiladores/estudo/transdutor/Transdutor.cpp -o CMakeFiles/transdutor.dir/Transdutor.cpp.s
 
 # Object files for target transdutor
 transdutor_OBJECTS = \
@@ -95,7 +95,7 @@ transdutor: CMakeFiles/transdutor.dir/main.cpp.o
 transdutor: CMakeFiles/transdutor.dir/Transdutor.cpp.o
 transdutor: CMakeFiles/transdutor.dir/build.make
 transdutor: CMakeFiles/transdutor.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/djalma/Desktop/sexto_semestre/Compiladores/estudo/transdutor/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable transdutor"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/media/djalma/09BBDA931A86D9AA/paradas_de_algoritmo/sexto_semestre_pt2/Compiladores/estudo/transdutor/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable transdutor"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/transdutor.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -108,6 +108,6 @@ CMakeFiles/transdutor.dir/clean:
 .PHONY : CMakeFiles/transdutor.dir/clean
 
 CMakeFiles/transdutor.dir/depend:
-	cd /home/djalma/Desktop/sexto_semestre/Compiladores/estudo/transdutor/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/djalma/Desktop/sexto_semestre/Compiladores/estudo/transdutor /home/djalma/Desktop/sexto_semestre/Compiladores/estudo/transdutor /home/djalma/Desktop/sexto_semestre/Compiladores/estudo/transdutor/cmake-build-debug /home/djalma/Desktop/sexto_semestre/Compiladores/estudo/transdutor/cmake-build-debug /home/djalma/Desktop/sexto_semestre/Compiladores/estudo/transdutor/cmake-build-debug/CMakeFiles/transdutor.dir/DependInfo.cmake --color=$(COLOR)
+	cd /media/djalma/09BBDA931A86D9AA/paradas_de_algoritmo/sexto_semestre_pt2/Compiladores/estudo/transdutor/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /media/djalma/09BBDA931A86D9AA/paradas_de_algoritmo/sexto_semestre_pt2/Compiladores/estudo/transdutor /media/djalma/09BBDA931A86D9AA/paradas_de_algoritmo/sexto_semestre_pt2/Compiladores/estudo/transdutor /media/djalma/09BBDA931A86D9AA/paradas_de_algoritmo/sexto_semestre_pt2/Compiladores/estudo/transdutor/cmake-build-debug /media/djalma/09BBDA931A86D9AA/paradas_de_algoritmo/sexto_semestre_pt2/Compiladores/estudo/transdutor/cmake-build-debug /media/djalma/09BBDA931A86D9AA/paradas_de_algoritmo/sexto_semestre_pt2/Compiladores/estudo/transdutor/cmake-build-debug/CMakeFiles/transdutor.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/transdutor.dir/depend
 

@@ -6,6 +6,7 @@
  */
 #include "Transdutor.h"
 int main() {
-    std::cout << "Hello, World!" << std::endl;
+    Transdutor oi("A25 A3 B2 Bc");
+    oi.e0();
     return 0;
 }

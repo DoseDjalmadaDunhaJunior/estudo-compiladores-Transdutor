@@ -4,8 +4,8 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/djalma/Desktop/sexto_semestre/Compiladores/estudo/transdutor/Transdutor.cpp" "/home/djalma/Desktop/sexto_semestre/Compiladores/estudo/transdutor/cmake-build-debug/CMakeFiles/transdutor.dir/Transdutor.cpp.o"
-  "/home/djalma/Desktop/sexto_semestre/Compiladores/estudo/transdutor/main.cpp" "/home/djalma/Desktop/sexto_semestre/Compiladores/estudo/transdutor/cmake-build-debug/CMakeFiles/transdutor.dir/main.cpp.o"
+  "/media/djalma/09BBDA931A86D9AA/paradas_de_algoritmo/sexto_semestre_pt2/Compiladores/estudo/transdutor/Transdutor.cpp" "/media/djalma/09BBDA931A86D9AA/paradas_de_algoritmo/sexto_semestre_pt2/Compiladores/estudo/transdutor/cmake-build-debug/CMakeFiles/transdutor.dir/Transdutor.cpp.o"
+  "/media/djalma/09BBDA931A86D9AA/paradas_de_algoritmo/sexto_semestre_pt2/Compiladores/estudo/transdutor/main.cpp" "/media/djalma/09BBDA931A86D9AA/paradas_de_algoritmo/sexto_semestre_pt2/Compiladores/estudo/transdutor/cmake-build-debug/CMakeFiles/transdutor.dir/main.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
