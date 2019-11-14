@@ -4,7 +4,13 @@
 
 #ifndef TRANSDUTOR_TRANSDUTOR_H
 #define TRANSDUTOR_TRANSDUTOR_H
+
+#include "StringChar.hpp"
 #include <iostream>
+#include <string>
+#include <stdio.h>
+#include <cstring>
+
 using namespace std;
 
 class Transdutor {
@@ -34,15 +40,35 @@ public:
             rejeita();
         }
     }
+
+    void ordenado(){
+        int i = 0, c = 0;
+        StringChar ola;
+        char temporario[200];
+        for (i = 0; txt[i] != 0 ; i++) {
+            if(txt[i] == ' '){
+                pegaParcela(temporario);
+                bool ok = false;
+                for (int j = 0; j < qvar; j++) {
+                    if((strcmp(temporario,ola.converte(vetor[j]))) == 0){
+                        puts("repete");
+                    }
+                }
+            }
+        }
+    }
+
 private:
-    int po = 0;
+    int po = 0, qvar = 0;
     char txt[200];
 
-    struct variavel{
+    struct variavel : public basic_string<char> {
         int num;
         string nome;
     };
+
     typedef struct variavel variavel;
+
     variavel vetor[200];
 
     void pegaParcela(char* parcela) {

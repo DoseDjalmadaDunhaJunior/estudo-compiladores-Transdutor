@@ -7,6 +7,7 @@
 #include "Transdutor.h"
 int main() {
     Transdutor oi("A25 A3 B2 Bc");
-    oi.e0();
+    //oi.e0();
+    oi.ordenado();
     return 0;
 }
